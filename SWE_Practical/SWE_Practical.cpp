@@ -1,13 +1,13 @@
 
 
 #include <iostream>
-#include "Answers.h"
 #include "Questions.h"
 
 int main()
 {
 	srand(time(NULL));
-	//std::cout << "Hello user, let's play a game of random trivia";
+	std::cout << "Hello user, let's play a game of random trivia" << endl << endl;
+	system("pause");
 	Questions q;
 	q.DisplayQuestion();
 	

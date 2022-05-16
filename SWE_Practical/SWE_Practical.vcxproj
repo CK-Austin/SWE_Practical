@@ -139,12 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Answers.cpp" />
     <ClCompile Include="Questions.cpp" />
     <ClCompile Include="SWE_Practical.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Answers.h" />
     <ClInclude Include="Questions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
